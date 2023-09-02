@@ -1,28 +1,33 @@
-# FInetuning-Falcon-7b-Midjourneyprompt
-Finetuning Falcbon-7b with PEFT, QLORA technique on Midjourney prompts got improved results
+# Finetuning Falcon-7b on Midjourney Prompts
 
-Covers from loading base pre-trained model to finetuning it with our custom dataset using QLORA and then inferencing our fine-tuned model.
+Finetuning Falcon-7b with PEFT and QLORA techniques on Midjourney prompts resulted in significant improvements.
 
-Dataset - Our Dataset consists of user prompts and their results, the results consist of mid-journey prompts with, Some Examples are below
+It covers the entire process, from loading the base pre-trained model to finetuning it with our custom dataset using QLORA, and then performing inference with our fine-tuned model.
 
-Example Training Set - 
+## Dataset
 
-![image](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/3e12a232-336f-4496-9cb3-f669e28c31f3)
+Our dataset consists of user prompts and their results, with a focus on mid-journey prompts. Here are some examples:
 
-![image](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/e10ec7c5-d917-4882-8542-622c7c7491d7)
+### Example Training Set
 
-![image](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/32e935b3-1505-482a-b5c0-39081f8ffa2a)
+- ![Example 1](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/3e12a232-336f-4496-9cb3-f669e28c31f3)
+- ![Example 2](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/e10ec7c5-d917-4882-8542-622c7c7491d7)
+- ![Example 3](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/32e935b3-1505-482a-b5c0-39081f8ffa2a)
 
-Note: --ar is a parameter which stands for aspect ratio
+**Note:** The `--ar` parameter represents the aspect ratio.
 
-Before Training Falcon-7b Model Output - 
+## Before Training Falcon-7b Model Output
 
-![image](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/16192c8b-85d5-44a4-abd0-18989a395026)
+![Before Training](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/16192c8b-85d5-44a4-abd0-18989a395026)
 
-After Training on our Custom dataset - 
+## After Training on Our Custom Dataset
 
-![image](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/a39753ac-9cae-4088-95c7-0d38961f61bb)
+![After Training](https://github.com/ArjunPrasadSarkhel/FInetuning-Falcon-7b-Midjourneyprompt/assets/49405291/a39753ac-9cae-4088-95c7-0d38961f61bb)
 
-Model upload on HuggingFace Hub
+## Model Upload on HuggingFace Hub
 
-HugginFace Hub Saved Model - https://huggingface.co/ArjunPrSarkhel/Falcon-7b-MidjourneyPrompts
+You can find the saved model on the HuggingFace Hub at the following link:
+
+[HuggingFace Hub Saved Model](https://huggingface.co/ArjunPrSarkhel/Falcon-7b-MidjourneyPrompts)
+
+Feel free to explore and use this fine-tuned model for your tasks and applications.
